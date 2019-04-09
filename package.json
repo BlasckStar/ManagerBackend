@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "TaskManager simples",
+  "main": "loader.js",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "production": "pm2 start loarder.js --name backend",
+    "start": "node server.js"
+  },
+  "author": "Lab Icarus",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-query-int": "^3.0.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.17",
+    "mongoose-paginate": "^5.0.3",
+    "node-restful": "^0.2.6",
+    "pm2": "^3.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
